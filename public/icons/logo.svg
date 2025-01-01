@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+  <!-- Background Circle -->
+  <path d="M33.9823 19.3653L20.0488 33.4978C18.9899 34.5683 17.2778 34.5683 16.2192 33.4978L2.28571 19.3653C1.23028 18.2912 1.23028 16.5547 2.28571 15.4809L16.2192 1.34838C17.2782 0.277877 18.9902 0.277877 20.0488 1.34838L33.9823 15.4809C35.0378 16.5547 35.0378 18.2912 33.9823 19.3653Z" fill="url(#paint0_linear_PayStrive)" />
+  
+  <!-- Inner Paths (Abstract Design) -->
+  <path d="M7.92455 28.1577C6.9034 27.1219 6.9034 25.4426 7.92455 24.4069L9.74872 22.5566L15.2968 28.349L11.8263 29.2499L7.92455 28.1577Z" fill="url(#paint1_linear_PayStrive)" />
+  <path d="M0.478784 20.807C-0.159595 20.1595 -0.159595 19.1095 0.478784 18.462L3.05024 15.8538L8.35746 21.2368L0.478784 20.807Z" fill="url(#paint2_linear_PayStrive)" />
+  
+  <!-- Central design representing financial movement -->
+  <path d="M27.2423 17.9549L25.2173 25.6297L24.052 23.6527L20.4562 27.2999C19.6179 28.1501 18.6929 28.8798 17.7012 29.4812C14.556 31.3879 10.516 30.7856 7.92529 28.1576H10.4794C13.3706 28.1576 16.0865 27.0172 18.132 24.9425L21.7931 21.2323L19.5276 19.8551L27.2423 17.9549Z" fill="url(#paint3_linear_PayStrive)" />
+  
+  <!-- Text Inside -->
+  <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" font-size="5" fill="white" font-family="Arial, sans-serif">PayStrive</text>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="paint0_linear_PayStrive" x1="16" y1="33" x2="16" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0058D4"/>
+      <stop offset="1" stop-color="#00245B"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_PayStrive" x1="7" y1="28" x2="15" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C4F7"/>
+      <stop offset="1" stop-color="#0065FF"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_PayStrive" x1="-0.5" y1="18" x2="8" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C4F7"/>
+      <stop offset="1" stop-color="#0065FF"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_PayStrive" x1="7" y1="24" x2="27" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C4F7"/>
+      <stop offset="1" stop-color="#0065FF"/>
+    </linearGradient>
+  </defs>
+</svg>
