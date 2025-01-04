@@ -1,33 +1,34 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Inter, IBM_Plex_Serif} from "next/font/google";
+import { Poppins, Roboto, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Poppins - A modern, professional sans-serif font
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ["400", "600", "700"], // Customizing weights
 });
-const inter = Inter({
-  variable: "--font-inter",
+
+// Roboto - Another clean and versatile sans-serif font
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
+  weight: ["400", "700"], // Customizing weights
 });
+
+// IBM Plex Serif - For some elegant touch
 const ibmPlexSerif = IBM_Plex_Serif({
   subsets: ["latin"],
-  weight:['400','700'],
-  variable: '--font-ibm-plex-serif'
-
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-ibm-plex-serif",
 });
 
 export const metadata: Metadata = {
   title: "PayStrive",
   description: "Pay smarter. Strive further.",
   icons: {
-    icon: '/icons/logo.svg' 
-  }
+    icon: '/icons/logo.svg',
+  },
 };
 
 export default function RootLayout({
@@ -38,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} ${ibmPlexSerif.variable}  antialiased`}
+        className={`${poppins.variable} ${roboto.variable} ${ibmPlexSerif.variable} antialiased`}
       >
         {children}
       </body>

@@ -15,20 +15,20 @@
   <!-- Gradient Definitions -->
   <defs>
     <linearGradient id="paint0_linear_PayStrive" x1="16" y1="33" x2="16" y2="1" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0058D4"/>
-      <stop offset="1" stop-color="#00245B"/>
+      <stop stop-color="#28B466"/>
+      <stop offset="1" stop-color="#2D6A4F"/>
     </linearGradient>
     <linearGradient id="paint1_linear_PayStrive" x1="7" y1="28" x2="15" y2="28" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00C4F7"/>
-      <stop offset="1" stop-color="#0065FF"/>
+      <stop stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#207C4B"/>
     </linearGradient>
     <linearGradient id="paint2_linear_PayStrive" x1="-0.5" y1="18" x2="8" y2="18" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00C4F7"/>
-      <stop offset="1" stop-color="#0065FF"/>
+      <stop stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#207C4B"/>
     </linearGradient>
     <linearGradient id="paint3_linear_PayStrive" x1="7" y1="24" x2="27" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00C4F7"/>
-      <stop offset="1" stop-color="#0065FF"/>
+      <stop stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#207C4B"/>
     </linearGradient>
   </defs>
 </svg>

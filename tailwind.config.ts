@@ -23,37 +23,26 @@ const config = {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
         },
-        bankGradient: "#0179FE",
+        bankGradient: "#28B466", // Softer green gradient for bank
         indigo: {
-          500: "#6172F3",
-          700: "#3538CD",
+          500: "#36B37D", // A greenish indigo
+          700: "#2C9F62", // Darker greenish indigo
         },
         success: {
-          25: "#F6FEF9",
-          50: "#ECFDF3",
-          100: "#D1FADF",
-          600: "#039855",
-          700: "#027A48",
-          900: "#054F31",
+          25: "#F0FDF4",
+          50: "#D1F8E4",
+          100: "#A3F0C3",
+          600: "#2D6A4F", // Success green color
+          700: "#1B4F2A",
+          900: "#103A23",
         },
-        pink: {
-          25: "#FEF6FB",
-          100: "#FCE7F6",
-          500: "#EE46BC",
-          600: "#DD2590",
-          700: "#C11574",
-          900: "#851651",
-        },
-        blue: {
-          25: "#F5FAFF",
-          100: "#D1E9FF",
-          500: "#2E90FA",
-          600: "#1570EF",
-          700: "#175CD3",
-          900: "#194185",
-        },
-        sky: {
-          1: "#F3F9FF",
+        green: {
+          25: "#F0FDF4", // Light green
+          100: "#D1F8E4", // Pale green
+          500: "#28B466", // Softer primary green
+          600: "#207C4B", // Darker green
+          700: "#1A5F3A", // Even darker green
+          900: "#12432A", // Deep green
         },
         black: {
           1: "#00214F",
@@ -70,10 +59,9 @@ const config = {
         },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
+        "bank-gradient": "linear-gradient(90deg, #28B466 0%, #4CAF50 100%)", // Softer green gradient
         "gradient-mesh": "url('/icons/gradient-mesh.svg')",
-        "bank-green-gradient":
-          "linear-gradient(90deg, #01797A 0%, #489399 100%)",
+        "bank-green-gradient": "linear-gradient(90deg, #28B466 0%, #2D6A4F 100%)", // Softer green gradient for bank
       },
       boxShadow: {
         form: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
