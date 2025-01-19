@@ -42,55 +42,55 @@ const MobileNav = ({ user }: MobileNavProps) => {
             />
             <h1 className="font-bold text-26 font-ibm-plex-serif">PayStrive</h1>
           </Link>
-
+  
           <div className="mobilenav-sheet">
-            <SheetClose asChild >
+            <SheetClose asChild>
               <nav className="flex h-full flex-col gap-6 pt-16">
-                '
                 {sidebarLinks.map((item) => {
                   const isActive =
                     pathname === item.route ||
                     pathname.startsWith(`${item.route}/`);
                   return (
                     <SheetClose asChild key={item.label}>
-                    <Link
-                      href={item.route}
-                      key={item.label}
-                      className={cn("mobilenav-sheet_close w-full", {
-                        "bg-bank-gradient": isActive,
-                      })}
-                    >
+                      <Link
+                        href={item.route}
+                        key={item.label}
+                        className={`mobilenav-sheet_close w-full ${
+                          isActive ? "bg-bank-gradient" : ""
+                        }`}
+                      >
                         <Image
                           src={item.imgURL}
                           alt={item.label}
                           width={20}
                           height={20}
-                          className={cn({
-                            "brightness-[3] invert-0": isActive,
-                          })}
+                          className={`${
+                            isActive ? "brightness-[3] invert-0" : ""
+                          }`}
                         />
-                      <p
-                        className={cn("text-16 font-semibold text-black-2 ", {
-                          "text-white": isActive,
-                        })}
-                      >
-                        {item.label}
-                      </p>
-                    </Link>
+                        <p
+                          className={`text-16 font-semibold text-black-2 ${
+                            isActive ? "text-white" : ""
+                          }`}
+                        >
+                          {item.label}
+                        </p>
+                      </Link>
                     </SheetClose>
                   );
                 })}
-
-                USER
+  
+                {/* USER */}
               </nav>
             </SheetClose>
-
-            FOOTER
+  
+            {/* FOOTER */}
           </div>
         </SheetContent>
       </Sheet>
     </section>
   );
+  
 };
 
 export default MobileNav;

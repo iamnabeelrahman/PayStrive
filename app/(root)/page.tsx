@@ -8,7 +8,7 @@ const Home = () => {
   // Empowering you to master your finances and make smarter decisions.
   //Everything you need to stay on top of your financial life, all in one place.
 
-  const loggedIn = {firstName: "Nabeel", lastName: "Rahman"}
+  const loggedIn = {firstName: "Nabeel", lastName: "Rahman", email: "nabeel.r.work@gmail.com"}
   return (
     <section className='home'>
       <div className='home-content'>
@@ -29,7 +29,7 @@ const Home = () => {
       <RightSidebar 
       user = {loggedIn}
       transactions = {[]}
-      banks={[]}
+      banks={[{ currentBalance:328.938}, {currentBalance: 8712.92}]}
       />
       
     </section>
